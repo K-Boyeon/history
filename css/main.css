@@ -1,0 +1,24 @@
+body {width: 1200px; margin: 0 auto;}
+.wrap {margin-top: 80px; font-family: 'Noto Sans KR';}
+.wrap .left {position: relative; float: left; width: 45%; height: 600px;}
+.wrap .left .img {margin-bottom: 45px;}
+.wrap .left h1 { position: absolute; bottom: 0; right: 0; margin-top: 50px; color: rgba(0, 0, 0, 0.05); font-size: 170px; letter-spacing: -5px;}
+.wrap .left h2{margin-bottom: 40px; text-align: right; color: #333;}
+.wrap .left p{margin-bottom: 100px; text-align: right; color: #333;}
+.wrap .left h2 { font-size: 24px; font-weight: 700; letter-spacing: -2px;}
+.wrap .left h2 strong { color: #1b4a76;}
+.wrap .left p {font-size: 20px; line-height: 1.5; }
+
+.wrap .right {float: right; width: 50%; }
+.wrap .right .history {}
+.wrap .right .history:first-child ul li {color: #1b4a76; font-weight: 600;}
+.wrap .right .history::after {content: ""; clear: both; display: block;}
+.wrap .right .history h2 {position: relative; float: left; width: 31%; color: #1b4a76; font-size: 40px; font-weight: 600; }
+.wrap .right .history h2::after { position: absolute; top: 5px; right: 25px; content: ""; display: inline-block; width: 40px; height: 1px; background-color: #1b4a76;}
+.wrap .right .history ul {position: relative; float: right; width: 63%; font-size: 17px; line-height: 1.5;}
+.wrap .right .history ul li {position: relative; color: #333;}
+.wrap .right .history ul li::before{position: absolute; top: 0; left: -37px; content: ""; height: 100%; border-left: 1px solid #aaa;}
+.wrap .right .history ul li dl { padding-bottom: 25px; overflow: hidden;}
+.wrap .right .history ul li dl::before{z-index: 1; position: absolute; top: 0; left: -42px; content: ""; display: inline-block; width: 10px; height: 10px; background-color: #fff; border: 1px solid #1b4a76; border-radius: 50%;}
+.wrap .right .history ul li dl dt {padding-bottom: 9px; letter-spacing: -1px;}
+
